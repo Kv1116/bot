@@ -1,0 +1,24 @@
+{
+  "name": "solana-wallet-copy-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@pump-fun/pump-sdk": "^1.37.0",
+    "@pump-fun/pump-swap-sdk": "^1.20.0",
+    "@solana/web3.js": "^1.98.4",
+    "bn.js": "^5.2.2",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.6.1",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.2.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

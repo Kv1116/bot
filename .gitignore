@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+*.env
+*-state.json
+state*.json
+*.jsonl
+*.log
+profiler-output*/
+pre-frog-dual-output*/
+logs/
+dist/
+build/
+*.bak
